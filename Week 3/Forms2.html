@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link href="forms.css" type="text/css" rel="stylesheet">
+  </head>
+  <body class="bd">
+  	<div class="container">
+      <form action="results.html" method="get" autocomplete="on">
+
+    		<div class="box">
+          <label for="firstName" class="fl fontLabel"> First Name: </label>
+    			<div class="new iconBox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+    			<div class="fr">
+    					<input type="text" name="firstName" placeholder="First Name"
+              class="textBox" autofocus="on" required>
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    
+    		<div class="box">
+          <label for="LastName" class="fl fontLabel"> Last Name: </label>
+    			<div class="fl iconBox"><i class="fa fa-user" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="LastName"
+              placeholder="Last Name" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+
+    		<div class="box">
+          <label for="phone" class="fl fontLabel"> Phone No.: </label>
+    			<div class="fl iconBox"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="phoneNo" maxlength="10" placeholder="Phone No." class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+
+    		<div class="box">
+          <label for="email" class="fl fontLabel"> Email Address: </label>
+    			<div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="email" required name="email" placeholder="Email Address" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+            <div class="box">
+                <label for="date" class="fl fontLabel"> Date of Birth: </label>
+                      <div class="fl iconBox"><i class="fa fa-date" aria-hidden="true"></i></div>
+                      <div class="fr">
+                              <input type="date" required name="date" placeholder="date of Birth" class="textBox" id="date">
+                      </div>
+                      <div class="clr"></div>
+            </div>
+
+ <div class="box">
+                <label for="color" class="fl fontLabel"> Favorite color: </label>
+                      <div class="fl iconBox"><i aria-hidden="true"></i></div>
+                      <div class="fr">
+						<div>
+							<label for="color" > 
+							<select name="color" id="color" class="colorselect" placeholder="Pick Color" >
+								<option value="Green" class="green"> Green </option>
+								<option value="Blue" class="blue"> Blue </option>
+								<option value="Red" class="red"> Red </option>
+								<option value="Black" class="black"> Black </option>
+								<option value="Purple" class="purple"> Purple </option>
+								<option value="Pink" class="pink"> Pink </option>
+								<option value="Brown" class="brown"> Brown </option>
+								<option value="Grey" class="grey"> Grey </option>
+								<option value="White" class="white"> White </option>
+							</select>
+						</label>
+						</div>
+                        
+                      </div>
+                      <div class="clr"></div>
+                  </div>
+      
+
+    		<div class="box">
+          <label for="password" class="fl fontLabel"> Password </label>
+    			<div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="Password" required name="password" placeholder="Password" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+
+    		<div class="box radio">
+          <label for="gender" class="fl fontLabel"> Gender: </label>
+    				<input type="radio" name="Gender" value="Male" required> Male &nbsp; &nbsp; &nbsp; &nbsp;
+    				<input type="radio" name="Gender" value="Female" required> Female
+    		</div>
+
+    		<div class="box terms">
+    				<input type="checkbox" name="Terms" required> &nbsp; I accept the terms and conditions
+    		</div>
+    		<div>
+				<button class="Register" ahref="results.html" > Register </button>
+    				 
+                    
+    		</div>
+            
+      </form>
+  </div>
+  </body>
+</html>

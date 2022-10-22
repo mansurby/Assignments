@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.bd{
+  background-size:contain;
+  background-color: #090c0c;
+}
+
+.container{
+	background: #f0a763;
+	width: 500px;
+	height: 200px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+	padding: 70px 50px 20px 50px;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 100px;
+}
